@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "name": "LED TV",
+    "description": "43 inch Smart LED TV",
+    "images": [
+      "/images/led1.jpg"
+    ],
+    "whatsappMessage": "Hello, I want price for LED TV"
+  },
+  {
+    "id": 2,
+    "name": "LED TV",
+    "description": "43 inch Smart LED TV",
+    "images": [
+      "/images/led2.jpg"
+    ],
+    "whatsappMessage": "Hello, I want price for LED TV"
+  },
+  {
+    "id": 3,
+    "name": "LED TV",
+    "description": "43 inch Smart LED TV",
+    "images": [
+      "/images/led3.jpg"
+    ],
+    "whatsappMessage": "Hello, I want price for LED TV"
+  },
+  {
+    "id": 4,
+    "name": "Projector",
+    "description": "Full HD Projector",
+    "images": [
+      "/images/projector1.jpg"
+    ],
+    "whatsappMessage": "Hello, I want price for Projector"
+  },
+  {
+    "id": 5,
+    "name": "Projector",
+    "description": "Full HD Projector",
+    "images": [
+      "/images/projector2.jpg"
+    ],
+    "whatsappMessage": "Hello, I want price for Projector"
+  },
+  {
+    "id": 6,
+    "name": "Projector",
+    "description": "Full HD Projector",
+    "images": [
+      "/images/projector3.jpg"
+    ],
+    "whatsappMessage": "Hello, I want price for Projector"
+  }
+  
+]

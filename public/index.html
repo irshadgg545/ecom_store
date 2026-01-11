@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Common Header -->
+<header class="site-header">
+  <h1>My Electronics Store</h1>
+  <nav>
+    <a href="/">Home</a> |
+    <a href="#products">Products</a> |
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- Main Content -->
+<main>
+  <h2 id="products">Our Products</h2>
+  <div id="products"></div>
+</main>
+
+<!-- Common Footer -->
+<footer class="site-footer">
+  <p>&copy; 2026 My Electronics Store. All Rights Reserved.</p>
+</footer>
+
+<script>
+fetch("/api/products")
+  .then(res => res.json())
+  .then(products => {
+    const container = document.getElementById("products");
+    container.innerHTML = "";
+
+    products.forEach(product => {
+      const card = document.createElement("div");
+      card.className = "card";
+
+      const images = Array.isArray(product.images) ? product.images : [];
+
+      let imagesHtml = "";
+      images.forEach((img, i) => {
+        imagesHtml += `<img src="${img}" class="product-img ${i === 0 ? "active" : ""}" 
+                        onerror="this.style.display='none'">`;
+      });
+
+      const whatsappUrl = `https://wa.me/91801010XXXX?text=${encodeURIComponent(product.whatsappMessage || "Hello")}`;
+
+      card.innerHTML = `
+        <div class="slider">
+          ${imagesHtml || "<p>No image available</p>"}
+          ${images.length > 1 ? '<button class="prev">‹</button><button class="next">›</button>' : ""}
+        </div>
+
+        <h3>${product.name}</h3>
+        <p>${product.description}</p>
+
+        <a href="${whatsappUrl}" target="_blank">
+          <button class="whatsapp-btn">Request Price on WhatsApp</button>
+        </a>
+      `;
+
+      container.appendChild(card);
+
+      if (images.length > 1) {
+        let index = 0;
+        const imgs = card.querySelectorAll(".product-img");
+
+        card.querySelector(".next").onclick = () => {
+          imgs[index].classList.remove("active");
+          index = (index + 1) % imgs.length;
+          imgs[index].classList.add("active");
+        };
+
+        card.querySelector(".prev").onclick = () => {
+          imgs[index].classList.remove("active");
+          index = (index - 1 + imgs.length) % imgs.length;
+          imgs[index].classList.add("active");
+        };
+      }
+    });
+  })
+  .catch(err => {
+    console.error("ERROR:", err);
+    document.body.innerHTML = "<h2>Failed to load products</h2>";
+  });
+</script>
+</body>
+</html>
