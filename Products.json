@@ -1,57 +1,103 @@
 [
   {
     "id": 1,
-    "name": "LED TV",
-    "description": "43 inch Smart LED TV",
+    "name": "SMPS",
+    "description": "Phoenix QUINT-PS/1AC/24VDC/20, SMPS 20A, 24VDC, 1 Phase AC Input",
     "images": [
-      "/images/led1.jpg"
+      "/images/smps1.jpg"
     ],
-    "whatsappMessage": "Hello, I want price for LED TV"
+    "whatsappMessage": "Hello, I want price for SMPS"
   },
   {
     "id": 2,
-    "name": "LED TV",
-    "description": "43 inch Smart LED TV",
+    "name": "SMPS",
+    "description": "Delta QUINT-PS/1AC/24VDC/20, SMPS 20A, 24VDC, 1 Phase",
     "images": [
-      "/images/led2.jpg"
+      "/images/smps2.jpg"
     ],
-    "whatsappMessage": "Hello, I want price for LED TV"
+    "whatsappMessage": "Hello, I want price for SMPS"
   },
   {
     "id": 3,
-    "name": "LED TV",
-    "description": "43 inch Smart LED TV",
+    "name": "SMPS",
+    "description": "Delta QUINT-PS/1AC/24VDC/40, SMPS 20A, 24VDC, 1 Phase",
     "images": [
-      "/images/led3.jpg"
+      "/images/smps3.jpg"
     ],
-    "whatsappMessage": "Hello, I want price for LED TV"
+    "whatsappMessage": "Hello, I want price for SMPS"
   },
   {
     "id": 4,
-    "name": "Projector",
-    "description": "Full HD Projector",
+    "name": "SMPS",
+    "description": "Delta QUINT-PS/1AC/24VDC/40, SMPS 20A, 24VDC, 1 Phase",
     "images": [
-      "/images/projector1.jpg"
+      "/images/smps4.jpg"
     ],
-    "whatsappMessage": "Hello, I want price for Projector"
+    "whatsappMessage": "Hello, I want price for SMPS"
   },
   {
     "id": 5,
-    "name": "Projector",
-    "description": "Full HD Projector",
+    "name": "SMPS",
+    "description": "Delta QUINT-PS/1AC/24VDC/40, SMPS 20A, 24VDC, 1 Phase",
     "images": [
-      "/images/projector2.jpg"
+      "/images/smps5.jpg"
     ],
-    "whatsappMessage": "Hello, I want price for Projector"
+    "whatsappMessage": "Hello, I want price for SMPS"
   },
   {
     "id": 6,
-    "name": "Projector",
-    "description": "Full HD Projector",
+    "name": "SMPS",
+    "description": "Delta QUINT-PS/1AC/24VDC/40, SMPS 20A, 24VDC, 1 Phase",
     "images": [
-      "/images/projector3.jpg"
+      "/images/smps6.jpg"
     ],
-    "whatsappMessage": "Hello, I want price for Projector"
+    "whatsappMessage": "Hello, I want price for SMPS"
+  },
+  {
+    "id": 7,
+    "name": "SMPS",
+    "description": "Delta QUINT-PS/1AC/24VDC/40, SMPS 20A, 24VDC, 1 Phase",
+    "images": [
+      "/images/smps7.jpg"
+    ],
+    "whatsappMessage": "Hello, I want price for SMPS"
+  },
+  {
+    "id": 8,
+    "name": "SMPS",
+    "description": "Delta QUINT-PS/1AC/24VDC/40, SMPS 20A, 24VDC, 1 Phase",
+    "images": [
+      "/images/smps8.jpg"
+    ],
+    "whatsappMessage": "Hello, I want price for SMPS"
+  },
+  {
+    "id": 9,
+    "name": "SMPS",
+    "description": "Delta QUINT-PS/1AC/24VDC/40, SMPS 20A, 24VDC, 1 Phase",
+    "images": [
+      "/images/smps9.jpg"
+    ],
+    "whatsappMessage": "Hello, I want price for SMPS"
+  },
+  {
+    "id": 10,
+    "name": "SMPS",
+    "description": "Delta QUINT-PS/1AC/24VDC/40, SMPS 20A, 24VDC, 1 Phase",
+    "images": [
+      "/images/smps10.jpg"
+    ],
+    "whatsappMessage": "Hello, I want price for SMPS"
+  },
+  {
+    "id": 11,
+    "name": "SMPS",
+    "description": "Delta QUINT-PS/1AC/24VDC/40, SMPS 20A, 24VDC, 1 Phase",
+    "images": [
+      "/images/smps11.jpg"
+    ],
+    "whatsappMessage": "Hello, I want price for SMPS"
   }
+
   
 ]
